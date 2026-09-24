@@ -1,5 +1,16 @@
-# Object file
-*.o
+# Dependencies
+node_modules/
 
-# Ada Library Information
-*.ali
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env & paket
+.env
+*.tgz
