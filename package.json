@@ -1,0 +1,8 @@
+{
+  "name": "native-bypasser",
+  "version": "1.0.0",
+  "description": "Native zero-dependency URL resolver",
+  "main": "index.js",
+  "author": "SanzzEditor",
+  "license": "MIT"
+}
