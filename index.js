@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * native-bypasser - Utility Link Resolver 100% native Node.js (zero dependency).
+ * native-bypasser-2 - Utility Link Resolver 100% native Node.js (zero dependency).
  * Semua fungsi async dan TIDAK melempar exception; hasilnya selalu object:
  *   { status: true,  title, destination, direct_link, meta }
  *   { status: false, title:'', destination:'', direct_link:'', error, code, meta }
