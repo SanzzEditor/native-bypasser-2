@@ -8,7 +8,7 @@ npm-debug.log*
 # OS / editor
 .DS_Store
 Thumbs.db
-.vscode/
+.Termux/
 .idea/
 
 # Env & paket
