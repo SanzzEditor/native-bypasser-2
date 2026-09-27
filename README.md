@@ -10,7 +10,7 @@ Utility Link Resolver **100% native Node.js, zero dependency**. Menelusuri URL r
 ## Instalasi
 
 ```bash
-npm install github:SanzzEditor/native-bypasser
+npm install github:SanzzEditor/native-bypasser-2
 ```
 
 Butuh Node.js `>= 14.17`.
@@ -30,7 +30,7 @@ const bypasser = require('native-bypasser');
 Contoh CLI cepat di Termux:
 
 ```bash
-node -e "require('native-bypasser').resolve(process.argv[1]).then(r=>console.log(JSON.stringify(r,null,2)))" "https://contoh.com/link"
+node -e "require('native-bypasser-2').resolve(process.argv[1]).then(r=>console.log(JSON.stringify(r,null,2)))" "https://contoh.com/link"
 ```
 
 ## Format output
@@ -69,7 +69,7 @@ Semua fungsi `async` dan selalu resolve (tidak reject).
 | `utils` | Helper: `request`, `requestWithFallback`, `base64Decode`, `extractUrlFromBase64`, `parseAttrs`, dll |
 
 ```js
-const { redirect, headers, unsub, mediafire } = require('native-bypasser');
+const { redirect, headers, unsub, mediafire } = require('native-bypasser-2');
 
 await redirect('https://bit.ly/xxxx');
 await headers('https://contoh.com/file.zip');
