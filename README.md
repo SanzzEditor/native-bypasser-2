@@ -1,4 +1,4 @@
-# native-bypasser
+# native-bypasser-2
 
 Utility Link Resolver **100% native Node.js, zero dependency**. Menelusuri URL redirect, membaca header HTTP, dan mengekstrak URL tujuan dari landing page / MediaFire secara programmatic. Ringan untuk lingkungan terisolasi seperti **Termux/Android**.
 
